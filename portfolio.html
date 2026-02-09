@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jayasai Karthik | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <nav>
+    <h1>Jayasai Karthik</h1>
+    <ul>
+      <li><a onclick="scrollToSection('home')">Home</a></li>
+      <li><a onclick="scrollToSection('about')">About</a></li>
+      <li><a onclick="scrollToSection('education')">Education</a></li>
+      <li><a onclick="scrollToSection('projects')">Projects</a></li>
+      <li><a onclick="scrollToSection('skills')">Skills</a></li>
+      <li><a onclick="scrollToSection('contact')">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section id="home" class="hero">
+  <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 30px;">
+    <div style="flex: 1; min-width: 280px; text-align: left;">
+      <h2>Hello, I'm Jayasai Karthik</h2>
+      <p>Full Stack Developer | Java | Web Development | AI Enthusiast</p>
+      <div style="margin-top: 20px; display: flex; gap: 15px; flex-wrap: wrap;">
+        <a href="resume/resume.pdf" class="btn" download>Download Resume</a>
+        <a href="#contact" class="btn">Hire Me</a>
+      </div>
+    </div>
+
+    <div style="flex: 1; min-width: 250px; text-align: center;">
+      <img src="images/profile-pic.png" alt="Profile Picture" style="width: 250px; height: 250px; object-fit: cover; border-radius: 50%; border: 5px solid #38bdf8;">
+    </div>
+  </div>
+</section>
+
+<section id="about" class="fade-in">
+  <h2 class="section-title">About Me</h2>
+  <div class="card">
+    <p>
+      Passionate Full Stack Developer with strong knowledge in Java, HTML, CSS, JavaScript,
+      React.js and MySQL. I enjoy building responsive and scalable web applications and
+      solving real-world problems using technology.
+    </p>
+  </div>
+</section>
+
+<section id="education" class="fade-in">
+  <h2 class="section-title">Education</h2>
+  <div class="card">
+    <h3>B.Tech (CSE) - Santhiram Engineering College</h3>
+    <p>2025</p>
+  </div>
+  <div class="card">
+    <h3>Intermediate (MPC) - Sri Chaitanya Junior College</h3>
+    <p>2021</p>
+  </div>
+  <div class="card">
+    <h3>SSC - Z.P. High School</h3>
+    <p>2019</p>
+  </div>
+</section>
+
+<section id="projects" class="fade-in">
+  <h2 class="section-title">Projects</h2>
+  <div class="card">
+    <h3>Pharmacy Products Management System</h3>
+    <p>
+      Web-based application using HTML, CSS, and JavaScript to manage pharmacy inventory
+      with add, update, and delete features.
+    </p>
+    <a href="#" class="btn" target="_blank">View Project</a>
+  </div>
+  <div class="card">
+    <h3>AI Tool Wear & Fault Prediction System</h3>
+    <p>
+      Built using Random Forest algorithm with Python libraries like NumPy, Pandas,
+      Scikit-learn and Streamlit for real-time prediction and alerts.
+    </p>
+    <a href="#" class="btn" target="_blank">View Project</a>
+  </div>
+</section>
+
+<section id="skills" class="fade-in">
+  <h2 class="section-title">Technical Skills</h2>
+  <div class="skills-list">
+    <div class="card">HTML5 & CSS3</div>
+    <div class="card">JavaScript (ES6+)</div>
+    <div class="card">Core & Advanced Java</div>
+    <div class="card">Python (Basic)</div>
+    <div class="card">MySQL</div>
+    <div class="card">OOP Concepts</div>
+  </div>
+</section>
+
+<section id="contact" class="fade-in">
+  <h2 class="section-title">Contact</h2>
+  <div class="card">
+    <p><strong>Phone:</strong> 93472 07505</p>
+    <p><strong>Email:</strong> <a href="mailto:jayasaikarthik66@gmail.com">jayasaikarthik66@gmail.com</a></p>
+    <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/gadekari-jayasai-karthik-39a63a318" target="_blank">View Profile</a></p>
+    <p><strong>Location:</strong> Hyderabad, India</p>
+  </div>
+</section>
+
+<footer>
+  <p>Connect with me:</p>
+  <p>
+    <a href="https://www.linkedin.com/in/gadekari-jayasai-karthik-39a63a318" target="_blank" style="color: #38bdf8; margin: 0 10px;">LinkedIn</a> |
+    <a href="mailto:jayasaikarthik66@gmail.com" style="color: #38bdf8; margin: 0 10px;">Email</a> |
+    <a href="#" target="_blank" style="color: #38bdf8; margin: 0 10px;">GitHub</a>
+  </p>
+  <p>© 2026 Jayasai Karthik | Portfolio</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
